@@ -44,44 +44,10 @@
 ---
 
 ## 📂 Project Structure
-lib/
-├── main.dart                    # App entry point
-├── app/
-│   ├── app.dart                # Main app configuration
-│   └── routes/
-│       └── app_routes.dart     # Route definitions
-├── core/
-│   ├── constants/              # App-wide constants
-│   │   ├── app_colors.dart     # Color palette
-│   │   ├── app_strings.dart    # String constants
-│   │   └── app_text_styles.dart # Typography
-│   ├── models/                 # Data models
-│   │   ├── intern.dart         # Intern model
-│   │   ├── announcement.dart   # Announcement model
-│   │   └── reward.dart         # Reward model
-│   └── utils/
-│       └── mock_data.dart      # Sample data
-├── features/                   # Feature modules
-│   ├── auth/
-│   │   └── pages/
-│   │       └── login_page.dart
-│   ├── dashboard/
-│   │   └── pages/
-│   │       └── dashboard_page.dart
-│   ├── leaderboard/
-│   │   └── pages/
-│   │       └── leaderboard_page.dart
-│   └── announcements/
-│       └── pages/
-│           └── announcements_page.dart
-└── shared/
-└── widgets/                # Reusable components
-├── custom_button.dart
-├── custom_text_field.dart
-├── stats_card.dart
-└── bottom_nav_bar.dart
+
 
 ---
+<pre> lib/ ├── main.dart # App entry point ├── app/ # App-level config │ ├── app.dart # Main app configuration │ └── routes/ │ └── app_routes.dart # Route definitions ├── core/ # Core utilities and models │ ├── constants/ │ │ ├── app_colors.dart # Color palette │ │ ├── app_strings.dart # String constants │ │ └── app_text_styles.dart # Typography │ ├── models/ │ │ ├── intern.dart # Intern model │ │ ├── announcement.dart # Announcement model │ │ └── reward.dart # Reward model │ └── utils/ │ └── mock_data.dart # Sample data ├── features/ # Feature modules │ ├── auth/ │ │ └── pages/ │ │ └── login_page.dart │ ├── dashboard/ │ │ └── pages/ │ │ └── dashboard_page.dart │ ├── leaderboard/ │ │ └── pages/ │ │ └── leaderboard_page.dart │ └── announcements/ │ └── pages/ │ └── announcements_page.dart ├── shared/ # Shared code across features └── widgets/ # Reusable UI components ├── custom_button.dart ├── custom_text_field.dart ├── stats_card.dart └── bottom_nav_bar.dart </pre>
 
 ## 🚀 Getting Started
 
